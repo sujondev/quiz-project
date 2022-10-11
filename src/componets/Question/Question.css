@@ -1,0 +1,9 @@
+.option {
+    width: 45% !important;
+    margin-right: 20px;
+}
+
+.quiz-hover:hover {
+    background-color: #0d6efd;
+    color: white;
+}
