@@ -19,8 +19,8 @@ const Navbars = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Link className='text-decoration-none me-4 fw-bold text-white' to='/home'>Home</Link>
-                            <Link className='text-decoration-none me-4 fw-bold text-white' to="/quiz">Quizes</Link>
+                            <Link className='text-decoration-none me-4 fw-bold text-white' to='/'>Home</Link>
+                            <Link className='text-decoration-none me-4 fw-bold text-white' to="/quiz">Topics</Link>
                             <Link className='text-decoration-none me-4 fw-bold text-white' to='/blog'>Blog</Link>
                             <Link className='text-decoration-none me-4 fw-bold text-white' to='/static'>Static</Link>
                         </Nav>
