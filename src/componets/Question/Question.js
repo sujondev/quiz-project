@@ -1,19 +1,20 @@
 import React from 'react';
-import './Question.css'
+import QuizOption from '../QuizOption/QuizOption';
 
 const Question = ({ option }) => {
-    const { question, options } = option
+    const { question, options, correctAnswer } = option
+
     return (
         <div className='container shadow border rounded mb-4 p-4'>
-            <div>
+            {<div>
                 <h4 className='text-primary'>{question}</h4>
-            </div>
-            <div className='row'>
+            </div>}
+            < div className='row' >
                 {
-                    options.map(quizOption => <div className='option quiz-hover grid-col-6 fw-bold border p-3 rounded mt-2'>{quizOption}</div>)
+                    options.map((quizOption, index) => <QuizOption key={index} quizOption={quizOption} correctAnswer={correctAnswer}></QuizOption>)
                 }
-            </div>
-        </div>
+            </div >
+        </div >
     );
 };
 
