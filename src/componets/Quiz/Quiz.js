@@ -2,6 +2,9 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useNavigate } from 'react-router-dom';
+import { ArrowLongRightIcon } from '@heroicons/react/24/solid'
+import './Quiz.css'
+
 
 const Quiz = ({ quiz }) => {
     const { name, logo, total, id } = quiz
@@ -18,7 +21,7 @@ const Quiz = ({ quiz }) => {
                     <Card.Text>
                         <span className='fw-bold text-primary'>Toatal:</span> <span className='fw-bold text-info'>{total}</span>
                     </Card.Text>
-                    <Button onClick={quizTopichandle} variant="primary fw-semibold">Start Topic</Button>
+                    <Button onClick={quizTopichandle} variant="primary fw-semibold d-flex justify-content-center align-item-center">StartTopic <ArrowLongRightIcon className='arrowicon' /></Button>
                 </Card.Body>
             </Card>
         </div>

@@ -20,9 +20,8 @@ const Navbars = () => {
                             navbarScroll
                         >
                             <Link className='text-decoration-none me-4 fw-bold text-white' to='/'>Home</Link>
-                            <Link className='text-decoration-none me-4 fw-bold text-white' to="/quiz">Topics</Link>
                             <Link className='text-decoration-none me-4 fw-bold text-white' to='/blog'>Blog</Link>
-                            <Link className='text-decoration-none me-4 fw-bold text-white' to='/static'>Static</Link>
+                            <Link className='text-decoration-none me-4 fw-bold text-white' to='/statistics'>Statistics</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
