@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
 import QuizOption from '../QuizOption/QuizOption';
 import { EyeIcon } from '@heroicons/react/24/solid'
-import { click } from '@testing-library/user-event/dist/click';
 import { ToastContainer, toast } from 'react-toastify';
 
 const Question = ({ option }) => {
