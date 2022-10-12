@@ -7,8 +7,8 @@ const Statistics = () => {
     console.log(data)
 
     return (
-        <div className='position-relative'>
-            <BarChart className='mt-5 position-absolute top-50 start-50' width={350} height={340} data={data}>
+        <div className='container-fluid position-relative'>
+            <BarChart className='mt-5 position-absolute top-50 start-50' width={340} height={340} data={data}>
                 <XAxis dataKey="name" />
                 <YAxis />
                 <Bar dataKey="total" fill="#8884d8" />
